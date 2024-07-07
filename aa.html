@@ -37,6 +37,34 @@ switch(true){
         document.write('fail')
 }
 
-    </script>
+// for loop
+var c;
+for (c=1; c<=16; c=c+1){
+    if (c==4||c==6){
+        continue;
+    }
+    if (c===13){
+        break;
+    }
+    document.write(c+"<button>log in</button> <br> <br>")
+}
+//  while loop
+var J=1;
+while (J<5) {
+    
+    document.write(J+"<button>while loop</button> <br> <br>")
+    J=J+1;
+}
+// Do While loop
+
+var  P=1;
+do{
+    document.write(P+"<button>while loop</button> <br>");
+
+    P=P+1;
+}
+while(P<5)
+
+ </script>
 </body>
 </html>
